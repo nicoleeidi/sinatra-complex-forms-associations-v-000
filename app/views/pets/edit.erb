@@ -1,10 +1,8 @@
 <h1>Update Pet</h1>
 <form action="/pets/<%=@pet.id%>" method="POST">
-<<<<<<< HEAD
+
   <p>Name:<input type="text"name="pet[name]"id="pet_name"value="<%=@pet.name%>"></p>
-=======
-  <p>Name:<input type="text"name="pet[:name]"id="pet_name"></p>
->>>>>>> 9a62368d0b4d5c9429fff27ce77f0ac7df726779
+
   <p>Choose an existing owner:</p>
 
     <%Owner.all.each do |owner|%>
